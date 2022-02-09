@@ -1,0 +1,22 @@
+.main{
+    width: 70%;
+    height: 400px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.main li{
+    display: inline-block;
+}
+
+.content{
+    background: #9a5757;
+    color: green;
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+.main [id^="label"]:checked~.content{
+    display: block;
+}

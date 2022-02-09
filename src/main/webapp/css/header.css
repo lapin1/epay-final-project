@@ -1,0 +1,75 @@
+header{
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name{
+    padding-left: 10px;
+    display: flex;
+    color: white;
+}
+
+#left{
+
+    padding-left: 20px;
+    padding-top: 4px;
+    font-size: 35px;
+    color: white;
+    float: left;
+}
+
+#right{
+    padding-right: 10px;
+    float: right;
+}
+
+ul {
+    list-style: disc; /* Убираем маркер для элементов списка */
+    padding: 0px 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 28px;
+}
+
+.burger{
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+ul li {
+    display:inline-block;/*Выстраиваем пункты меню в ряд по горизонтали */
+}
+
+nav ul li:hover {
+    background: #dacece; /* Меняем фон пункта меню при наведении указателя мыши */
+}
+
+ul li a {
+    display:block; /* Настраиваем оформление пунктов меню */
+    padding: 15px 5px 15px 15px;
+    margin-right: 30px;
+    font-size: .9em;
+    color: #eee;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 1px;
+}
+
+
+ul li ul {
+    display: none; /* Прячем пункты выпадающего блока меню */
+    position:absolute;
+    background: #181818; /* Задаем фон выпадающего блока меню */
+}
+
+ul li:hover ul {
+    display:block; /* Отображаем подменю при наведении мыши */
+}
+
+ul li ul li {
+    display:block; /* Выстраиваем по вертикали пункты выпадающего меню */
+}

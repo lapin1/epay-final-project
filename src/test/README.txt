@@ -1,0 +1,1 @@
+before testing change db.properties file to testdb.properties.file

@@ -1,0 +1,52 @@
+body {
+    background-color: #eaeaec;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+p.name {
+    text-align: center;
+    padding-top: 10%;
+    color: #181818;
+    font-size: 60px;
+
+
+}
+
+p.reg {
+    text-align: center;
+    font-size: 15px;
+    color: #282828;
+
+}
+
+a {
+    color: #66A1D3;
+    text-decoration: none;
+}
+
+button.go-to-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    top: 0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    background: #0071e3;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+button.go-to-sign:hover{
+    background: #0179f1;
+}
+
+
